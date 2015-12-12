@@ -11,7 +11,7 @@
     <Grid Background="Black">
         <TextBox x:Name="UserName_textBox" HorizontalAlignment="Left" Margin="10,253,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="380" PlaceholderText="Username"/>
         <TextBox x:Name="Userpassword_textBox1" HorizontalAlignment="Left" Margin="10,297,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="380" ToolTipService.ToolTip="Userpassword" PlaceholderText="Userpassword"/>
-        <Button x:Name="button_SignUp" Content="Sign Up" HorizontalAlignment="Left" Margin="41,385,0,0" VerticalAlignment="Top" Width="134"/>
+        <Button x:Name="button_SignUp" Content="Sign Up" HorizontalAlignment="Left" Margin="41,385,0,0" VerticalAlignment="Top" Width="134" Click="button_SignUp_Click"/>
         <Button x:Name="button_signIn" Content="Sign In" HorizontalAlignment="Left" Margin="220,385,0,0" VerticalAlignment="Top" Width="145"/>
     </Grid>
 </Page>

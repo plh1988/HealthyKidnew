@@ -12,6 +12,9 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using System.Diagnostics;
+using Windows.UI.Popups;
+
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkID=390556
 
@@ -35,5 +38,15 @@ namespace HealthyKid.Folder_Isuru
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
         }
+
+        private void button_SignUp_Click(object sender, RoutedEventArgs e)
+        {
+            // this.Frame.Navigate(typeof(Folder_Isuru.SignUP));
+            MessageDialog msgbox = new MessageDialog("this is working!");
+            msgbox.ShowAsync();
+
+        }
+
     }
 }
+
