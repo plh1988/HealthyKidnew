@@ -54,5 +54,10 @@ namespace HealthyKid
         {
 
         }
+
+        private void Option1_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+        }
+            
     }
 }

@@ -15,14 +15,14 @@ using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkID=390556
 
-namespace HealthyKid.Folder_Salitha
+namespace HealthyKid.Folder_Isuru
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class SignUpPage : Page
+    public sealed partial class SignUP : Page
     {
-        public SignUpPage()
+        public SignUP()
         {
             this.InitializeComponent();
         }

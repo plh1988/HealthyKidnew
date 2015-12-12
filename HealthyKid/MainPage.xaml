@@ -11,7 +11,7 @@
     <Grid>
         <TextBlock x:Name="MainMenuHeading" HorizontalAlignment="Left" Height="76" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="380" Text="Healthy Kid" FontFamily="Comic Sans MS" FontSize="48" SelectionChanged="MainMenuText_SelectionChanged"/>
         <TextBlock x:Name="MainMenu" HorizontalAlignment="Left" Height="39" Margin="10,111,0,0" TextWrapping="Wrap" Text="Main Menu" VerticalAlignment="Top" Width="159" FontFamily="Comic Sans MS" FontSize="26.667"/>
-        <TextBlock x:Name="Option1" HorizontalAlignment="Left" Height="48" Margin="146,229,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="244" FontSize="21.333" FontFamily="Comic Sans MS" Text="Assess Development"/>
+        <TextBlock x:Name="Option1" HorizontalAlignment="Left" Height="48" Margin="146,229,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="244" FontSize="21.333" FontFamily="Comic Sans MS" Text="Assess Development" SelectionChanged="Option1_SelectionChanged"/>
         <TextBlock x:Name="Option1_Copy" HorizontalAlignment="Left" Height="48" Margin="146,282,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="244" FontSize="21.333" FontFamily="Comic Sans MS" Text="Time Line"/>
         <TextBlock x:Name="Option1_Copy1" HorizontalAlignment="Left" Height="48" Margin="146,335,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="244" FontSize="21.333" FontFamily="Comic Sans MS" Text="Alerts"/>
         <TextBlock x:Name="Option1_Copy2" HorizontalAlignment="Left" Height="48" Margin="146,383,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="244" FontSize="21.333" FontFamily="Comic Sans MS" Text="Nutrition Status"/>
