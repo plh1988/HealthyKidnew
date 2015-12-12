@@ -9,13 +9,9 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock x:Name="MainMenuHeading" HorizontalAlignment="Left" Height="76" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="380" Text="Healthy Kid" FontFamily="Comic Sans MS" FontSize="48" SelectionChanged="MainMenuText_SelectionChanged"/>
-        <TextBlock x:Name="MainMenu" HorizontalAlignment="Left" Height="39" Margin="10,111,0,0" TextWrapping="Wrap" Text="Main Menu" VerticalAlignment="Top" Width="159" FontFamily="Comic Sans MS" FontSize="26.667"/>
-        <TextBlock x:Name="Option1" HorizontalAlignment="Left" Height="48" Margin="146,229,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="244" FontSize="21.333" FontFamily="Comic Sans MS" Text="Assess Development" SelectionChanged="Option1_SelectionChanged"/>
-        <TextBlock x:Name="Option1_Copy" HorizontalAlignment="Left" Height="48" Margin="146,282,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="244" FontSize="21.333" FontFamily="Comic Sans MS" Text="Time Line"/>
-        <TextBlock x:Name="Option1_Copy1" HorizontalAlignment="Left" Height="48" Margin="146,335,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="244" FontSize="21.333" FontFamily="Comic Sans MS" Text="Alerts"/>
-        <TextBlock x:Name="Option1_Copy2" HorizontalAlignment="Left" Height="48" Margin="146,383,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="244" FontSize="21.333" FontFamily="Comic Sans MS" Text="Nutrition Status"/>
-        <TextBlock x:Name="Option1_Copy3" HorizontalAlignment="Left" Height="48" Margin="146,445,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="244" FontSize="21.333" FontFamily="Comic Sans MS" Text="Child Health Record" SelectionChanged="Option1_Copy3_SelectionChanged"/>
-
+        <TextBox x:Name="UserName_textBox" HorizontalAlignment="Left" Margin="10,253,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="380" PlaceholderText="Username"/>
+        <TextBox x:Name="Userpassword_textBox1" HorizontalAlignment="Left" Margin="10,297,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="380" ToolTipService.ToolTip="Userpassword" PlaceholderText="Userpassword"/>
+        <Button x:Name="button_SignUp" Content="Sign Up" HorizontalAlignment="Left" Margin="41,385,0,0" VerticalAlignment="Top" Width="134"/>
+        <Button x:Name="button_signIn" Content="Sign In" HorizontalAlignment="Left" Margin="220,385,0,0" VerticalAlignment="Top" Width="145"/>
     </Grid>
 </Page>
