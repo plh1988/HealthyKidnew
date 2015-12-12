@@ -94,8 +94,8 @@
     <Compile Include="Folder Isuru\SignUP.xaml.cs">
       <DependentUpon>SignUP.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Folder Salitha\huyujh.xaml.cs">
-      <DependentUpon>huyujh.xaml</DependentUpon>
+    <Compile Include="Folder Salitha\SignUpPagee.xaml.cs">
+      <DependentUpon>SignUpPagee.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -132,9 +132,9 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Folder Salitha\huyujh.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="Folder Salitha\SignUpPagee.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
